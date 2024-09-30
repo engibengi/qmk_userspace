@@ -4,8 +4,9 @@
 /* Tap-Hold keycodes */
 
 #define LOW_SPC LT(_LOWER, KC_SPACE)
-#define RAI_ENT LT(_RAISE, KC_ENT)
-#define MO_FUN MO(_FUNCTION)
+#define RAI_ENT LT(_RAISE, KC_ENTER)
+#define FUN_SPC LT(_FUNCTION, KC_SPACE)
+#define FUN_ENT LT(_FUNCTION, KC_ENTER)
 /*
  * Other keys would be, with SOM replaced
  * #define SOM_BSP LT(_SOM, KC_BSPC)
